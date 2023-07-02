@@ -1,0 +1,14 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 75px;
+    gap: 24px;
+    width: 100%;
+
+    .button__container{
+        padding-top: 18px;
+        
+        button{
+            padding: 8px 12px;
+        }
+    }
+}

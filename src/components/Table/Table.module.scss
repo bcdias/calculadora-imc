@@ -1,0 +1,16 @@
+.table {
+    width: 100%;
+
+    .column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        padding-top: 8px;
+
+        td {
+            text-align: center;
+            padding-top: 12px;
+            border-bottom: solid 2px black;
+        }
+    }
+}
